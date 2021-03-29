@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+<form action="resultaat.php" method="POST">
+    Inlognaam <input type="text" name="inlognaam" value="">
+    Wachtwoord <input type="password" name="wachtwoord" value="">
+    <input type="submit" name="knop" value="verstuur">
+</form>
+<br>
+<form action="dier.php" method="POST">
+    <label for="beer">Beer</label><input type="radio" id="beer" name="dier" value="beer"><br>
+    <label for="tijger">Tijger</label><input type="radio" id="Tijger" name="dier" value="Tijger"><br>
+    <label for="otter">Otter</label><input type="radio" id="otter" name="dier" value="otter"><br>
+    <input type="submit" name="knop" value="verstuur">
+</form>
+<br>
+<form action="diercheck.php" method="POST">
+    <label for="beer2">Beer</label><input type="checkbox" id="beer2" name="beer"><br>
+    <label for="tijger2">Tijger</label><input type="checkbox" id="tijger2" name="tijger"><br>
+    <label for="otter2">Otter</label><input type="checkbox" id="otter2" name="otter"><br>
+    <input type="submit" name="knop" value="verstuur">
+</form>
+<br>
+<form action="function.php" method="POST">
+    Inlognaam <input type="text" name="email" value="">
+    Wachtwoord <input type="password" name="wachtwoord" value="">
+    <input type="submit" name="knop" value="verstuur">
+</form>
+</body>
+</html>
